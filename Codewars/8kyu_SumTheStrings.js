@@ -5,5 +5,13 @@
 If either input is an empty string, consider it as zero. */
 
 function sumStr(a,b) {
-  return (parseInt(a) + parseInt(b)).toString()
+  if (a && b) {
+    return (parseInt(a) + parseInt(b)).toString()
+  } else if(a === "" && b === "") {
+    return '0'
+  } else if(a === "") {
+    return parseInt(b).toString()
+  } else if(b === "") {
+    return parseInt(a).toString()
+  }
 }

@@ -2,5 +2,9 @@
 The input can be one of many different types so be aware. */
 
 function parseF(s) {
-  return JSON.parse(s);
+  if (parseInt(s) === 0) {
+    return 0
+  } else {
+    return parseFloat(s) || null
+  }
 }

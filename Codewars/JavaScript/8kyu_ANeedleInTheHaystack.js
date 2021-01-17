@@ -9,3 +9,4 @@ After your function finds the needle it should return a message (as a string) th
 function findNeedle(haystack) {
   return "found the needle at position " + haystack.findIndex(x => x === 'needle')
 }
+

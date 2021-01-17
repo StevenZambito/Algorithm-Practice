@@ -21,3 +21,4 @@ function sakuraFall(v) {
     return 0
   }
 }
+

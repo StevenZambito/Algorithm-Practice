@@ -12,3 +12,4 @@ function differenceInAges(ages) {
   const difference = oldestAge - youngestAge;
   return [youngestAge, oldestAge, difference];
 }
+

@@ -8,6 +8,8 @@ If your language supports it, try using a switch statement. */
 
 function switchItUp(number){
   switch(number) {
+    case 0:
+      return "Zero";
     case 1:
       return "One";
     case 2:

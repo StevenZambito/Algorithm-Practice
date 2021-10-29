@@ -12,11 +12,4 @@ two_oldest_ages([1, 3, 10, 0]) # should return [3, 10]
 
 =end
 
-def two_oldest_ages(ages)
-  oldest = ages.max
-  the_index = ages.find_index(oldest)
-  ages.delete_at(the_index)
-  second_oldest = ages.max
-  
-  [second_oldest, oldest]
-end
+ages.sort.last(2)
